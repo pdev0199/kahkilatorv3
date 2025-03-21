@@ -1,0 +1,14 @@
+@import url('./main-layout.css');
+@import url('./views/main-page-view.css');
+@import url('./views/claim1-view.css');
+@import url('./views/result-view.css');    html {
+      --lumo-primary-text-color: hsl(214, 0%, 97%);
+      --lumo-error-text-color: hsl(3, 80%, 30%);
+      --lumo-base-color: rgb(237, 29, 36);
+      --lumo-body-text-color: hsla(214, 0%, 98%, 0.94);
+
+    }
+
+    [theme~="dark"] {
+
+    }
